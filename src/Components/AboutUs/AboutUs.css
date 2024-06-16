@@ -1,0 +1,20 @@
+/* AboutUs.css */
+.about-us-image {
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 50% / 35%;
+    position: relative;
+    display: block;
+  }
+  
+  .about-us-badge {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    transform: translate(-50%, -50%);
+  }
+
+.t-align{
+    text-align: justify;
+}
