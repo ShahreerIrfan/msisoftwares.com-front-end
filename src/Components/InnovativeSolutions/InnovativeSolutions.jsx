@@ -26,7 +26,7 @@ const InnovativeSolutions = () => {
             <img
               src="/images/innovative.jpg" // Replace this with the actual image URL
               alt="Team working"
-              className="rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+              className="cus-size rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
             />
           </div>
         </div>

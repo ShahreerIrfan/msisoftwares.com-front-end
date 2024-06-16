@@ -8,7 +8,7 @@ const experiences = [
   { id: 3, category: 'Branding', title: 'Illustration Design', description: 'Creative Design', image: '/images/Illustration_Design.webp' },
   { id: 4, category: 'SEO', title: 'SEO Optimization', description: 'SEO', image: '/images/seo.webp' },
   { id: 5, category: 'UX/UI Design', title: 'Mobile App Design', description: 'UX/UI Design', image: '/images/Mobile_App_Design.webp' },
-  { id: 5, category: 'UX/UI Design', title: 'Mobile App Design', description: 'UX/UI Design', image: '/images/Mobile_App_Design.webp' },
+ 
 ];
 
 const categories = ['Show All', 'Design', 'Branding', 'Development', 'SEO', 'UX/UI Design'];

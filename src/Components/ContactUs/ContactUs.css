@@ -1,0 +1,37 @@
+section {
+    position: relative;
+  }
+  
+  .bg-pattern {
+    background-image: url('/images/pattern.png'); /* Replace with your pattern image */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  form input,
+  form textarea {
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #5956E9;
+    box-shadow: 0 0 10px rgba(89, 86, 233, 0.3);
+  }
+  
+  button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+  }
+  
+  button i {
+    transition: transform 0.3s;
+  }
+  
+  button:hover i {
+    transform: translateX(2px);
+  }
+  

@@ -27,3 +27,8 @@ button i {
 button i::before {
   margin-left: 8px;
 }
+
+.cus-size{
+  width: 1000px !important;
+  height: auto;
+}
