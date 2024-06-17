@@ -15,9 +15,7 @@ const Services = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="service-card p-6 border border-gray-200 rounded-lg text-left">
             <div className="icon bg-blue-100 p-4 rounded-full mx-auto mb-4">
-              <svg className="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13 7h2V5h-2v2zm-6 0h2V5H7v2zm-4 6h2v-2H3v2zm16 0h-2v-2h2v2zm-4 0h-2v-2h2v2zm-6 0H7v-2H5v2zm-2 4h2v-2H7v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16-4h2v-2H3v2zm4 0h2v-2H5v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h2v-2h-2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h-2v-2h2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2z" />
-              </svg>
+            <img className="cus-img" src="images/statagy.webp" alt="" />
             </div>
             <h3 className="mt-6 text-xl font-bold text-gray-900">Strategy</h3>
             <ul className="mt-4 text-left text-gray-600 space-y-2">
@@ -47,9 +45,7 @@ const Services = () => {
 
           <div className="service-card p-6 border border-gray-200 rounded-lg text-left">
             <div className="icon bg-blue-100 p-4 rounded-full mx-auto mb-4">
-              <svg className="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13 7h2V5h-2v2zm-6 0h2V5H7v2zm-4 6h2v-2H3v2zm16 0h-2v-2h2v2zm-4 0h-2v-2h2v2zm-6 0H7v-2H5v2zm-2 4h2v-2H7v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16-4h2v-2H3v2zm4 0h2v-2H5v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h2v-2h-2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h-2v-2h2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2z" />
-              </svg>
+            <img className="cus-img" src="images/p-design.webp" alt="" />
             </div>
             <h3 className="mt-6 text-xl font-bold text-gray-900">Product Design</h3>
             <ul className="mt-4 text-left text-gray-600 space-y-2">
@@ -79,9 +75,8 @@ const Services = () => {
 
           <div className="service-card p-6 border border-gray-200 rounded-lg text-left">
             <div className="icon bg-blue-100 p-4 rounded-full mx-auto mb-4">
-              <svg className="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13 7h2V5h-2v2zm-6 0h2V5H7v2zm-4 6h2v-2H3v2zm16 0h-2v-2h2v2zm-4 0h-2v-2h2v2zm-6 0H7v-2H5v2zm-2 4h2v-2H7v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16-4h2v-2H3v2zm4 0h2v-2H5v2zm4 0h2v-2H9v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h2v-2h-2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2zm-16 4h2v-2H3v2zm16 0h-2v-2h2v2zm-16-8h2v-2H3v2zm16 0h2v-2h-2v2z" />
-              </svg>
+                <img className="cus-img" src="images/development.webp" alt="" />
             </div>
             <h3 className="mt-6 text-xl font-bold text-gray-900">Development</h3>
             <ul className="mt-4 text-left text-gray-600 space-y-2">

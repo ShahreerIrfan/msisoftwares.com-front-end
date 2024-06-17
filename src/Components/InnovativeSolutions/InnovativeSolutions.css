@@ -1,0 +1,29 @@
+.relative .bg-green-400.opacity-50 {
+  mix-blend-mode: multiply;
+}
+
+section.bg-gradient-to-r {
+  position: relative;
+  overflow: hidden;
+}
+
+section.bg-gradient-to-r::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2), transparent);
+  transform: rotate(45deg);
+  opacity: 0.5;
+}
+
+button i {
+  font-family: 'FontAwesome';
+  content: '\f061';
+}
+
+button i::before {
+  margin-left: 8px;
+}

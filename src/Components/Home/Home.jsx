@@ -4,6 +4,8 @@ import React from 'react';
 import Hero from '../Hero/Hero';
 import AboutUs from '../AboutUs/AboutUs';
 import Services from '../Services/Services';
+import ProfessionalExperience from '../ProfessionalExperience/ProfessionalExperience';
+import InnovativeSolutions from '../InnovativeSolutions/InnovativeSolutions';
 
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
       <Hero></Hero>
       <AboutUs></AboutUs>
       <Services></Services>
+      <ProfessionalExperience></ProfessionalExperience>
+      <InnovativeSolutions></InnovativeSolutions>
     </div>
   );
 };
