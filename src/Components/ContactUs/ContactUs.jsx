@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-blue-50 to-purple-50 relative">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center relative z-10">
-        <div className="md:w-2/3 text-center md:text-left md:pr-10">
+        <div className="w-full md:w-2/3 text-center md:text-left md:pr-10">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
             Have Any on <span className="text-blue-500">Project Mind!</span> Contact Us
           </h2>
@@ -16,14 +16,14 @@ const ContactUs = () => {
           </p>
           <div className="mt-8 flex flex-col md:flex-row md:space-x-8 items-center justify-center md:justify-start">
             <div className="mb-4 md:mb-0 flex items-center space-x-3">
-              <i className="fas fa-envelope text-blue-500 text-xl"></i> 
+              <i className="fas fa-envelope text-blue-500 text-xl"></i>
               <div>
                 <span className="font-semibold">Email Us</span>
                 <p className="text-gray-600">support@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
-              <i className="fas fa-phone text-blue-500 text-xl"></i> 
+              <i className="fas fa-phone text-blue-500 text-xl"></i>
               <div>
                 <span className="font-semibold">Phone Us</span>
                 <p className="text-gray-600">+012 (345) 67 89</p>
@@ -39,12 +39,12 @@ const ContactUs = () => {
               />
               <input
                 type="email"
-                className="w-full md:w-1/2 px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 transition"
+                className="w-full md:w-1/2 px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 transition mt-4 md:mt-0"
                 placeholder="Email Address"
               />
             </div>
             <textarea
-              className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 transition"
+              className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 transition mt-4"
               rows="5"
               placeholder="Write Message"
             ></textarea>
@@ -56,8 +56,8 @@ const ContactUs = () => {
             </button>
           </form>
         </div>
-        <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center relative">
-          <div className="relative w-full max-w-sm">
+        <div className="w-full md:w-1/3 mt-8 md:mt-0 flex justify-center relative">
+          <div className="relative w-full max-w-xs md:max-w-sm">
             <img
               src="/images/contact-1.jpg" // Replace this with the actual image URL
               alt="Contact"
